@@ -1,0 +1,8 @@
+#
+#gpio device configuration
+#
+menuconfig RK3288_ATSHA204A
+	bool "support encryption devices"
+	default n
+	---help---
+	 Say Y here if you support encryption device

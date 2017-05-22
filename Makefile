@@ -1,0 +1,1 @@
+obj-$(CONFIG_RK3288_ATSHA204A)		+= atsha204a.o
