@@ -1,1 +1,0 @@
-cmd_drivers/misc/atsha204a/built-in.o :=  ../prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/arm-eabi-ld -EL    -r -o drivers/misc/atsha204a/built-in.o drivers/misc/atsha204a/atsha204a.o ; scripts/mod/modpost drivers/misc/atsha204a/built-in.o
