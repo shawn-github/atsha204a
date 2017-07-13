@@ -1,0 +1,15 @@
+/*
+ * Copyright (C) 2014 ROCKCHIP, Inc.
+ * arch/arm/boot/dts/gpio_gamebox.dtsi
+ * author: shawn_cool@hotmail.com
+ * create date: 2017-05-18
+ */
+
+&i2c4 {
+	status = "okay";
+    atsha204a@50 {
+        compatible = "atmel,atsha204a";
+        reg = <0x50>;
+    };
+};
+
