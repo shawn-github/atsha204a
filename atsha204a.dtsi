@@ -7,9 +7,9 @@
 
 &i2c4 {
 	status = "okay";
-    atsha204a@50 {
+    atsha204a@52 {
         compatible = "atmel,atsha204a";
-        reg = <0x50>;
+        reg = <0x52>;
     };
 };
 
